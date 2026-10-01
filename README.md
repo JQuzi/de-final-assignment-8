@@ -58,7 +58,7 @@ docker compose up -d
 Copy-Item .env.example .env
 ```
 
-Откройте <http://localhost:8080>, войдите с `admin / admin`, включите DAG `houses_final_assignment` и нажмите **Trigger DAG**. Первый запуск скачивает архив около 24 МБ и распаковывает CSV около 347 МБ. Следующие запуски используют локальную копию в named volume.
+Откройте <http://localhost:8081>, войдите с `admin / admin`, включите DAG `houses_final_assignment` и нажмите **Trigger DAG**. Внешний порт `8081` выбран потому, что `8080` на компьютере занят веб-сервером EDB/PostgreSQL. Первый запуск скачивает архив около 24 МБ и распаковывает CSV около 347 МБ. Следующие запуски используют локальную копию в named volume.
 
 ClickHouse доступен по HTTP на <http://localhost:8123>. По умолчанию база, пользователь и пароль: `analytics`, `airflow`, `airflow`.
 
