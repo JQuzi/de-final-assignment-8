@@ -1,0 +1,11 @@
+.git
+.env
+.idea
+.vscode
+data
+logs
+__pycache__
+*.pyc
+*.csv
+*.zip
+

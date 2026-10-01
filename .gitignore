@@ -1,0 +1,17 @@
+.env
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.log
+
+# The assignment explicitly forbids committing the full source dataset.
+data/
+*.csv
+*.zip
+*.gz
+
+# Local Airflow state (named Docker volumes are used by default).
+logs/
+plugins/
+
