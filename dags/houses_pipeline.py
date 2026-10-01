@@ -244,6 +244,95 @@ def _write_json(path: Path, payload: object) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
 
 
+def _generate_plots(analytics: dict[str, object], output_dir: Path) -> list[Path]:
+    """Build optional assignment charts with a non-interactive Matplotlib backend."""
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    plot_dir = output_dir / "plots"
+    plot_dir.mkdir(parents=True, exist_ok=True)
+    plt.rcParams.update({"font.family": "DejaVu Sans", "axes.grid": True, "grid.alpha": 0.25})
+    created: list[Path] = []
+
+    # Point 5: top regions and settlements.
+    top_regions = list(analytics["top_10_regions"])
+    top_cities = list(analytics["top_10_cities"])
+    figure, axes = plt.subplots(1, 2, figsize=(18, 7), constrained_layout=True)
+    for axis, rows, label_key, title, color in (
+        (axes[0], top_regions, "region", "Топ-10 регионов по числу объектов", "#2878B5"),
+        (axes[1], top_cities, "locality_name", "Топ-10 населённых пунктов", "#F28E2B"),
+    ):
+        ordered = list(reversed(rows))
+        labels = [str(row[label_key]) for row in ordered]
+        values = [int(row["count"]) for row in ordered]
+        bars = axis.barh(labels, values, color=color)
+        axis.set_title(title)
+        axis.set_xlabel("Количество объектов")
+        axis.bar_label(bars, padding=4, fmt="%d", fontsize=9)
+        axis.grid(axis="x")
+        axis.grid(axis="y", visible=False)
+    top_path = plot_dir / "top_regions_and_cities.png"
+    figure.savefig(top_path, dpi=160, bbox_inches="tight")
+    plt.close(figure)
+    created.append(top_path)
+
+    # Point 6: show the full min/max range for every region on a logarithmic axis.
+    extremes_by_region: dict[str, dict[str, float]] = {}
+    for row in list(analytics["area_extremes_by_region"]):
+        region = str(row["region"])
+        extremes_by_region.setdefault(region, {})[str(row["extreme"])] = float(row["square"])
+    area_rows = sorted(
+        (
+            (region, values["min"], values["max"])
+            for region, values in extremes_by_region.items()
+            if "min" in values and "max" in values
+        ),
+        key=lambda item: item[2],
+    )
+    figure_height = max(12.0, len(area_rows) * 0.29)
+    figure, axis = plt.subplots(figsize=(17, figure_height), constrained_layout=True)
+    y_positions = list(range(len(area_rows)))
+    minimums = [max(row[1], 0.01) for row in area_rows]
+    maximums = [max(row[2], 0.01) for row in area_rows]
+    axis.hlines(y_positions, minimums, maximums, color="#BAB0AC", linewidth=1.5)
+    axis.scatter(minimums, y_positions, color="#59A14F", s=24, label="Минимальная площадь", zorder=3)
+    axis.scatter(maximums, y_positions, color="#E15759", s=24, label="Максимальная площадь", zorder=3)
+    axis.set_yticks(y_positions, [row[0] for row in area_rows], fontsize=8)
+    axis.set_xscale("log")
+    axis.set_xlabel("Площадь, м² (логарифмическая шкала)")
+    axis.set_title("Минимальная и максимальная площадь домов по регионам")
+    axis.legend(loc="lower right")
+    axis.grid(axis="x", which="both")
+    axis.grid(axis="y", visible=False)
+    area_path = plot_dir / "area_extremes_by_region.png"
+    figure.savefig(area_path, dpi=160, bbox_inches="tight")
+    plt.close(figure)
+    created.append(area_path)
+
+    # Point 7: buildings grouped into decades.
+    decades = list(analytics["buildings_by_decade"])
+    decade_labels = [f'{int(row["decade"])}-е' for row in decades]
+    decade_values = [int(row["count"]) for row in decades]
+    figure, axis = plt.subplots(figsize=(17, 8), constrained_layout=True)
+    bars = axis.bar(decade_labels, decade_values, color="#4E79A7")
+    axis.set_title("Количество домов по десятилетиям")
+    axis.set_xlabel("Десятилетие")
+    axis.set_ylabel("Количество объектов")
+    axis.tick_params(axis="x", rotation=55)
+    axis.bar_label(bars, padding=3, rotation=90, fontsize=7, fmt="%d")
+    axis.grid(axis="y")
+    axis.grid(axis="x", visible=False)
+    decade_path = plot_dir / "buildings_by_decade.png"
+    figure.savefig(decade_path, dpi=160, bbox_inches="tight")
+    plt.close(figure)
+    created.append(decade_path)
+
+    LOGGER.info("Matplotlib charts created: %s", [str(path) for path in created])
+    return created
+
+
 def run_pipeline() -> None:
     data_dir = Path(os.getenv("HOUSES_DATA_DIR", "/opt/airflow/data"))
     output_dir = data_dir / "output"
@@ -394,6 +483,7 @@ def run_pipeline() -> None:
             "buildings_by_decade": _collect_dicts(buildings_by_decade),
         }
         _write_json(output_dir / "analytics.json", analytics)
+        _generate_plots(analytics, output_dir)
         LOGGER.info("Analytics results:\n%s", json.dumps(analytics, ensure_ascii=False, indent=2, default=str))
 
         load_df = (

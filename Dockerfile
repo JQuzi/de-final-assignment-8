@@ -13,6 +13,7 @@ USER airflow
 RUN pip install --no-cache-dir \
     pyspark==3.5.5 \
     clickhouse-connect==0.8.17 \
+    matplotlib==3.10.1 \
     requests==2.32.3
 
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64

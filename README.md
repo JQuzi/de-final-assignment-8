@@ -32,6 +32,10 @@
 │   └── houses_pipeline.py       # единый DAG: шаги 1–7 и 9–11
 ├── clickhouse/init/
 │   └── 001_create_houses.sql    # схема таблицы (шаг 8)
+├── results/
+│   ├── analytics.json           # проверенные результаты шагов 1–7
+│   ├── top_25_houses_over_60.json
+│   └── plots/                   # графики Matplotlib для шагов 5–7
 ├── Dockerfile                   # Airflow + Java 17 + PySpark + ClickHouse client
 ├── docker-compose.yml           # Airflow, PostgreSQL и ClickHouse
 ├── .env.example
@@ -72,6 +76,7 @@ ClickHouse доступен по HTTP на <http://localhost:8123>. По умо�
 - перед повторной загрузкой очищает целевую таблицу, поэтому повторный запуск не создаёт дубликаты;
 - загружает DataFrame партиями из Spark partitions и сверяет число строк в ClickHouse;
 - выполняет SQL из константы `TOP_25_SQL` и пишет результаты в лог.
+- строит Matplotlib-графики для пунктов 5–7 с backend `Agg`, подходящим для Docker.
 
 Артефакты выполнения находятся внутри volume `houses-data`:
 
@@ -84,6 +89,12 @@ ClickHouse доступен по HTTP на <http://localhost:8123>. По умо�
 
 - [`results/analytics.json`](results/analytics.json) — ответы на пункты 1–7;
 - [`results/top_25_houses_over_60.json`](results/top_25_houses_over_60.json) — ответ на пункт 11.
+
+Графики Matplotlib:
+
+- [`results/plots/top_regions_and_cities.png`](results/plots/top_regions_and_cities.png) — пункт 5;
+- [`results/plots/area_extremes_by_region.png`](results/plots/area_extremes_by_region.png) — пункт 6;
+- [`results/plots/buildings_by_decade.png`](results/plots/buildings_by_decade.png) — пункт 7.
 
 ## Контрольные результаты
 
