@@ -1,0 +1,1940 @@
+{
+  "source": "https://disk.yandex.ru/d/bhf2M8C557AFVw",
+  "row_count": 590707,
+  "physical_line_count_including_header": 590708,
+  "blank_line_count": 0,
+  "empty_record_count": 0,
+  "numeric_quality": {
+    "missing_years": 75943,
+    "missing_squares": 39713,
+    "missing_coordinates": 4365
+  },
+  "year_statistics": {
+    "average_year": 1969.9386631543775,
+    "median_year": 1970
+  },
+  "top_10_regions": [
+    {
+      "region": "Московская область",
+      "count": 34416
+    },
+    {
+      "region": "Свердловская область",
+      "count": 33304
+    },
+    {
+      "region": "Москва",
+      "count": 26163
+    },
+    {
+      "region": "Нижегородская область",
+      "count": 22757
+    },
+    {
+      "region": "Самарская область",
+      "count": 16116
+    },
+    {
+      "region": "Красноярский край",
+      "count": 15226
+    },
+    {
+      "region": "Кемеровская область",
+      "count": 14805
+    },
+    {
+      "region": "Республика Татарстан",
+      "count": 14642
+    },
+    {
+      "region": "Иркутская область",
+      "count": 14034
+    },
+    {
+      "region": "Архангельская область",
+      "count": 13423
+    }
+  ],
+  "top_10_cities": [
+    {
+      "locality_name": "Москва",
+      "count": 26062
+    },
+    {
+      "locality_name": "Самара",
+      "count": 9044
+    },
+    {
+      "locality_name": "Нижний Новгород",
+      "count": 8987
+    },
+    {
+      "locality_name": "Екатеринбург",
+      "count": 7604
+    },
+    {
+      "locality_name": "Новосибирск",
+      "count": 7172
+    },
+    {
+      "locality_name": "Санкт-Петербург",
+      "count": 6996
+    },
+    {
+      "locality_name": "Ростов-на-Дону",
+      "count": 5962
+    },
+    {
+      "locality_name": "Иркутск",
+      "count": 5589
+    },
+    {
+      "locality_name": "Красноярск",
+      "count": 5424
+    },
+    {
+      "locality_name": "Волгоград",
+      "count": 5345
+    }
+  ],
+  "area_extremes_by_region": [
+    {
+      "region": "Алматы",
+      "house_id": 178967,
+      "locality_name": "Алматы",
+      "address": "ул. Орджоникидзе, д. 169",
+      "square": 3403.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Алматы",
+      "house_id": 422315,
+      "locality_name": "Алматы",
+      "address": "д. г Навашино ул Соболева д.12",
+      "square": 457.08,
+      "extreme": "min"
+    },
+    {
+      "region": "Алтайский край",
+      "house_id": 100084,
+      "locality_name": "Барнаул",
+      "address": "ул. Папанинцев, д. 121а",
+      "square": 88871.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Алтайский край",
+      "house_id": 101877,
+      "locality_name": "Барнаул",
+      "address": "ул. Витебская, д. 2",
+      "square": 3.26,
+      "extreme": "min"
+    },
+    {
+      "region": "Амурская область",
+      "house_id": 109584,
+      "locality_name": "поселок Февральск",
+      "address": "пгт. Февральск, ул. Саянская, д. 4 А",
+      "square": 429720.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Амурская область",
+      "house_id": 109705,
+      "locality_name": "село Томское",
+      "address": "с. Томское, ул. Ленина, д. 3",
+      "square": 0.3,
+      "extreme": "min"
+    },
+    {
+      "region": "Архангельская область",
+      "house_id": 113318,
+      "locality_name": "Архангельск",
+      "address": "пр-кт. Московский, д. 43, к. 3",
+      "square": 39452.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Архангельская область",
+      "house_id": 121778,
+      "locality_name": "поселок Илеза",
+      "address": "п. Илеза, ул. Первомайская, д. 13",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Астраханская область",
+      "house_id": 124304,
+      "locality_name": "Астрахань",
+      "address": "ул. С.Перовской, д. 84",
+      "square": 15026.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Астраханская область",
+      "house_id": 123659,
+      "locality_name": "Астрахань",
+      "address": "ул. Белинского, д. 38",
+      "square": 40.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Белгородская область",
+      "house_id": 129907,
+      "locality_name": "Старый Оскол",
+      "address": "мкр. Дубрава квартал 1, д. 18",
+      "square": 7058900.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Белгородская область",
+      "house_id": 127189,
+      "locality_name": "Белгород",
+      "address": "ул. Разина, д. 10",
+      "square": 16.3,
+      "extreme": "min"
+    },
+    {
+      "region": "Брянская область",
+      "house_id": 132198,
+      "locality_name": "Брянск",
+      "address": "ул. Красноармейская, д. 100",
+      "square": 40764.3,
+      "extreme": "max"
+    },
+    {
+      "region": "Брянская область",
+      "house_id": 132363,
+      "locality_name": "Брянск",
+      "address": "ул. Почтовая, д. 48",
+      "square": 18.8,
+      "extreme": "min"
+    },
+    {
+      "region": "Владимирская область",
+      "house_id": 142545,
+      "locality_name": "Владимир",
+      "address": "пр-кт. Октябрьский, д. 36",
+      "square": 26959.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Владимирская область",
+      "house_id": 145482,
+      "locality_name": "Кольчугино",
+      "address": "ул. Чапаева, д. 1Б",
+      "square": 3.01,
+      "extreme": "min"
+    },
+    {
+      "region": "Волгоградская область",
+      "house_id": 149298,
+      "locality_name": "Волжский",
+      "address": "пр-кт. им Ленина, д. 97",
+      "square": 55789.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Волгоградская область",
+      "house_id": 156173,
+      "locality_name": "Волгоград",
+      "address": "ул. им Циолковского, д. 39",
+      "square": 6.73,
+      "extreme": "min"
+    },
+    {
+      "region": "Вологодская область",
+      "house_id": 164476,
+      "locality_name": "Череповец",
+      "address": "ул. Раахе, д. 4",
+      "square": 43523.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Вологодская область",
+      "house_id": 164803,
+      "locality_name": "Череповец",
+      "address": "ул. Милютина, д. 17",
+      "square": 1.71,
+      "extreme": "min"
+    },
+    {
+      "region": "Воронежская область",
+      "house_id": 172748,
+      "locality_name": "Воронеж",
+      "address": "ул. Урывского, д. 9",
+      "square": 198476.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Воронежская область",
+      "house_id": 174699,
+      "locality_name": "Воронеж",
+      "address": "ул. 20-летия ВЛКСМ, д. 54а",
+      "square": 21.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Восточно-Казахстанская область",
+      "house_id": 497077,
+      "locality_name": "Семей",
+      "address": "ул. Пархоменко, д. 60",
+      "square": 7704.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Восточно-Казахстанская область",
+      "house_id": 497077,
+      "locality_name": "Семей",
+      "address": "ул. Пархоменко, д. 60",
+      "square": 7704.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Гродненская область",
+      "house_id": 178532,
+      "locality_name": "Гродно",
+      "address": "ул. Поповича, д. 28",
+      "square": 806.1,
+      "extreme": "max"
+    },
+    {
+      "region": "Гродненская область",
+      "house_id": 178532,
+      "locality_name": "Гродно",
+      "address": "ул. Поповича, д. 28",
+      "square": 806.1,
+      "extreme": "min"
+    },
+    {
+      "region": "Днепропетровская область",
+      "house_id": 45649,
+      "locality_name": "Подгородное",
+      "address": "ул. Комсомольская, д. 4",
+      "square": 1341.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Днепропетровская область",
+      "house_id": 178962,
+      "locality_name": "Кривой Рог",
+      "address": "ул. Орджоникидзе, д. 60",
+      "square": 596.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Донецкая область",
+      "house_id": 103133,
+      "locality_name": "Константиновка",
+      "address": "ул. Красноармейская, д. 67",
+      "square": 6911.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Донецкая область",
+      "house_id": 253186,
+      "locality_name": "Донецк",
+      "address": "д. г Осинники ул Кирова д.10",
+      "square": 382.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Еврейская автономная область",
+      "house_id": 180806,
+      "locality_name": "Биробиджан",
+      "address": "пр-кт. 60-летия СССР, д. 11.",
+      "square": 14884.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Еврейская автономная область",
+      "house_id": 180339,
+      "locality_name": "село Пронькино",
+      "address": "с. Пронькино, ул. Набережная, д. 9",
+      "square": 20.85,
+      "extreme": "min"
+    },
+    {
+      "region": "Забайкальский край",
+      "house_id": 182701,
+      "locality_name": "Чита",
+      "address": "ул. Карла Маркса, д. 16",
+      "square": 41307.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Забайкальский край",
+      "house_id": 182591,
+      "locality_name": "Чита",
+      "address": "п. Восточный, ул. Назара Губина, д. 5",
+      "square": 18.2,
+      "extreme": "min"
+    },
+    {
+      "region": "Запорожская область",
+      "house_id": 178503,
+      "locality_name": "Мелитополь",
+      "address": "ул. А.Невского, д. 4",
+      "square": 3347.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Запорожская область",
+      "house_id": 178503,
+      "locality_name": "Мелитополь",
+      "address": "ул. А.Невского, д. 4",
+      "square": 3347.7,
+      "extreme": "min"
+    },
+    {
+      "region": "Ивановская область",
+      "house_id": 187318,
+      "locality_name": "Иваново",
+      "address": "ш. Кохомское, д. 11",
+      "square": 32617.6,
+      "extreme": "max"
+    },
+    {
+      "region": "Ивановская область",
+      "house_id": 190938,
+      "locality_name": "Шуя",
+      "address": "ул. Северная 7-я, д. 9",
+      "square": 23.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Иркутская область",
+      "house_id": 193782,
+      "locality_name": "Ангарск",
+      "address": "мкр. 9-й, д. 85",
+      "square": 121168.9,
+      "extreme": "max"
+    },
+    {
+      "region": "Иркутская область",
+      "house_id": 200149,
+      "locality_name": "Иркутск",
+      "address": "ул. Депутатская, д. 43, к. 3",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Кабардино-Балкарская Республика",
+      "house_id": 208496,
+      "locality_name": "Нальчик",
+      "address": "ул. Московская, д. 6",
+      "square": 20850.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Кабардино-Балкарская Республика",
+      "house_id": 208441,
+      "locality_name": "Нальчик",
+      "address": "ул. Хмельницкого, д. 45",
+      "square": 2.2,
+      "extreme": "min"
+    },
+    {
+      "region": "Калининградская область",
+      "house_id": 212693,
+      "locality_name": "Калининград",
+      "address": "ул. Ю.Гагарина, д. 101",
+      "square": 44105.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Калининградская область",
+      "house_id": 210996,
+      "locality_name": "Калининград",
+      "address": "ул. Мира, д. 10",
+      "square": 3.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Калужская область",
+      "house_id": 226997,
+      "locality_name": "Малоярославец",
+      "address": "ул. Щорса, д. 7",
+      "square": 22574.3,
+      "extreme": "max"
+    },
+    {
+      "region": "Калужская область",
+      "house_id": 227676,
+      "locality_name": "Таруса",
+      "address": "ул. Садовая, д. 48",
+      "square": 17.8,
+      "extreme": "min"
+    },
+    {
+      "region": "Камчатский край",
+      "house_id": 229515,
+      "locality_name": "Петропавловск-Камчатский",
+      "address": "ул. Николаевой-Терешковой В.В., д. 1",
+      "square": 22675.6,
+      "extreme": "max"
+    },
+    {
+      "region": "Камчатский край",
+      "house_id": 228153,
+      "locality_name": "Елизово",
+      "address": "ул. Звездная, д. 4, к. а",
+      "square": 22.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Карагандинская область",
+      "house_id": 179492,
+      "locality_name": "Караганда",
+      "address": "ул. З.Космодемьянской, д. 50, к. а",
+      "square": 4985.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Карагандинская область",
+      "house_id": 179492,
+      "locality_name": "Караганда",
+      "address": "ул. З.Космодемьянской, д. 50, к. а",
+      "square": 4985.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Карачаево-Черкесская Республика",
+      "house_id": 230531,
+      "locality_name": "Черкесск",
+      "address": "ул. Гутякулова, д. 34",
+      "square": 10505.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Карачаево-Черкесская Республика",
+      "house_id": 230853,
+      "locality_name": "Черкесск",
+      "address": "ул. Л.Шевцовой, д. 20",
+      "square": 281.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Кемеровская область",
+      "house_id": 252577,
+      "locality_name": "Новокузнецк",
+      "address": "пр-кт. Курако, д. 37а",
+      "square": 72448.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Кемеровская область",
+      "house_id": 241390,
+      "locality_name": "Анжеро-Судженск",
+      "address": "ул. Киселевская, д. 21",
+      "square": 15.4,
+      "extreme": "min"
+    },
+    {
+      "region": "Киевская область",
+      "house_id": 178530,
+      "locality_name": "Узин",
+      "address": "ул. Поповича, д. 20",
+      "square": 717.1,
+      "extreme": "max"
+    },
+    {
+      "region": "Киевская область",
+      "house_id": 178530,
+      "locality_name": "Узин",
+      "address": "ул. Поповича, д. 20",
+      "square": 717.1,
+      "extreme": "min"
+    },
+    {
+      "region": "Кировоградская область",
+      "house_id": 441386,
+      "locality_name": "Светловодск",
+      "address": "д. г Омск пр-кт Мира д.38",
+      "square": 3249.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Кировоградская область",
+      "house_id": 441386,
+      "locality_name": "Светловодск",
+      "address": "д. г Омск пр-кт Мира д.38",
+      "square": 3249.7,
+      "extreme": "min"
+    },
+    {
+      "region": "Кировская область",
+      "house_id": 260554,
+      "locality_name": "Киров",
+      "address": "ул. Свердлова, д. 8, к. а",
+      "square": 313165.6,
+      "extreme": "max"
+    },
+    {
+      "region": "Кировская область",
+      "house_id": 261079,
+      "locality_name": "Киров",
+      "address": "ул. Орловская, д. 26",
+      "square": 2.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Костромская область",
+      "house_id": 275382,
+      "locality_name": "Кострома",
+      "address": "ул. Никитская, д. 138",
+      "square": 40099.41,
+      "extreme": "max"
+    },
+    {
+      "region": "Костромская область",
+      "house_id": 273193,
+      "locality_name": "Галич",
+      "address": "ул. Пушкина, д. 17",
+      "square": 0.59,
+      "extreme": "min"
+    },
+    {
+      "region": "Краснодарский край",
+      "house_id": 283288,
+      "locality_name": "Краснодар",
+      "address": "ул. Школьная, д. 13/2",
+      "square": 176323.14,
+      "extreme": "max"
+    },
+    {
+      "region": "Краснодарский край",
+      "house_id": 287114,
+      "locality_name": "станица Полтавская",
+      "address": "ст-ца. Полтавская, ул. Жлобы, д. 60",
+      "square": 1.2,
+      "extreme": "min"
+    },
+    {
+      "region": "Красноярский край",
+      "house_id": 301455,
+      "locality_name": "поселок Филимоново",
+      "address": "с. Филимоново, ул. Профсоюзная, д. 3",
+      "square": 452520.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Красноярский край",
+      "house_id": 297845,
+      "locality_name": "Красноярск",
+      "address": "ул. Ястынская, д. 18",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Курганская область",
+      "house_id": 304920,
+      "locality_name": "Курган",
+      "address": "мкр. 5-й, д. 1",
+      "square": 28546.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Курганская область",
+      "house_id": 306594,
+      "locality_name": "Щучье",
+      "address": "ул. Советская, д. 23",
+      "square": 2.17,
+      "extreme": "min"
+    },
+    {
+      "region": "Курская область",
+      "house_id": 308326,
+      "locality_name": "Курск",
+      "address": "пр-кт. Вячеслава Клыкова, д. 92",
+      "square": 35758.2,
+      "extreme": "max"
+    },
+    {
+      "region": "Курская область",
+      "house_id": 307578,
+      "locality_name": "Курск",
+      "address": "ул. Заречная, д. 154",
+      "square": 30.2,
+      "extreme": "min"
+    },
+    {
+      "region": "Ленинградская область",
+      "house_id": 319542,
+      "locality_name": "Тихвин",
+      "address": "ул. Ярослава Иванова, д. 1",
+      "square": 91195.9,
+      "extreme": "max"
+    },
+    {
+      "region": "Ленинградская область",
+      "house_id": 312394,
+      "locality_name": "деревня Старая",
+      "address": "д. Старая, ул. Верхняя, д. 5, к. 2",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Липецкая область",
+      "house_id": 323131,
+      "locality_name": "Липецк",
+      "address": "ул. Белянского, д. 16",
+      "square": 100071.4,
+      "extreme": "max"
+    },
+    {
+      "region": "Липецкая область",
+      "house_id": 323293,
+      "locality_name": "Липецк",
+      "address": "ул. Бунина, д. 15",
+      "square": 7.98,
+      "extreme": "min"
+    },
+    {
+      "region": "Луганская область",
+      "house_id": 179504,
+      "locality_name": "Луганск",
+      "address": "ул. З.Космодемьянской, д. 48, к. а",
+      "square": 12169.5,
+      "extreme": "max"
+    },
+    {
+      "region": "Луганская область",
+      "house_id": 389101,
+      "locality_name": "поселок Cтаница Луганская",
+      "address": "п. д/о Вороново, д. 62",
+      "square": 451.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Люнебург",
+      "house_id": 178964,
+      "locality_name": "Манди-Гобиндгарх",
+      "address": "ул. Орджоникидзе, д. 153, к. а",
+      "square": 3487.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Люнебург",
+      "house_id": 178964,
+      "locality_name": "Манди-Гобиндгарх",
+      "address": "ул. Орджоникидзе, д. 153, к. а",
+      "square": 3487.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Магаданская область",
+      "house_id": 325347,
+      "locality_name": "Магадан",
+      "address": "ул. Портовая, д. 38",
+      "square": 19242.6,
+      "extreme": "max"
+    },
+    {
+      "region": "Магаданская область",
+      "house_id": 324974,
+      "locality_name": "Магадан",
+      "address": "ул. Рыбозаводская, д. 2, к. В",
+      "square": 11.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Минск",
+      "house_id": 56768,
+      "locality_name": "Минск",
+      "address": "ул. Жуковского, д. 15а",
+      "square": 1241.3,
+      "extreme": "max"
+    },
+    {
+      "region": "Минск",
+      "house_id": 56768,
+      "locality_name": "Минск",
+      "address": "ул. Жуковского, д. 15а",
+      "square": 1241.3,
+      "extreme": "min"
+    },
+    {
+      "region": "Могилевская область",
+      "house_id": 45680,
+      "locality_name": "Могилев",
+      "address": "ул. Заводская, д. 32",
+      "square": 3708.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Могилевская область",
+      "house_id": 45680,
+      "locality_name": "Могилев",
+      "address": "ул. Заводская, д. 32",
+      "square": 3708.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Москва",
+      "house_id": 334449,
+      "locality_name": "Москва",
+      "address": "ул. Старый Гай, д. 6",
+      "square": 883057.36,
+      "extreme": "max"
+    },
+    {
+      "region": "Москва",
+      "house_id": 346683,
+      "locality_name": "Москва",
+      "address": "пр-кт. Мира, д. 190",
+      "square": 2.62,
+      "extreme": "min"
+    },
+    {
+      "region": "Московская область",
+      "house_id": 374251,
+      "locality_name": "Фрязино",
+      "address": "ул. Пионерская, д. 3",
+      "square": 410203.8,
+      "extreme": "max"
+    },
+    {
+      "region": "Московская область",
+      "house_id": 375478,
+      "locality_name": "Химки",
+      "address": "ул. Пролетарская, д. 17",
+      "square": 4.84,
+      "extreme": "min"
+    },
+    {
+      "region": "Мурманская область",
+      "house_id": 397651,
+      "locality_name": "Мурманск",
+      "address": "ул. Халтурина, д. 1",
+      "square": 39889.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Мурманская область",
+      "house_id": 397709,
+      "locality_name": "Мурманск",
+      "address": "пр-кт. Ленина, д. 70",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "НАО",
+      "house_id": 401544,
+      "locality_name": "Нарьян-Мар",
+      "address": "ул. Оленная, д. 8",
+      "square": 16640.9,
+      "extreme": "max"
+    },
+    {
+      "region": "НАО",
+      "house_id": 402032,
+      "locality_name": "поселок Макарово",
+      "address": "д. Макарово, д. 3",
+      "square": 46.2,
+      "extreme": "min"
+    },
+    {
+      "region": "Нижегородская область",
+      "house_id": 406399,
+      "locality_name": "Бор",
+      "address": "ул. Мира, д. 29",
+      "square": 4351000.9,
+      "extreme": "max"
+    },
+    {
+      "region": "Нижегородская область",
+      "house_id": 402673,
+      "locality_name": "Балахна",
+      "address": "ул. Попова, д. 8",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Николаевская область",
+      "house_id": 178535,
+      "locality_name": "Первомайск",
+      "address": "ул. Поповича, д. 33",
+      "square": 1477.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Николаевская область",
+      "house_id": 178533,
+      "locality_name": "Первомайск",
+      "address": "ул. Поповича, д. 29",
+      "square": 373.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Новгородская область",
+      "house_id": 426430,
+      "locality_name": "Великий Новгород",
+      "address": "ул. Дачная, д. 4",
+      "square": 33616.2,
+      "extreme": "max"
+    },
+    {
+      "region": "Новгородская область",
+      "house_id": 425080,
+      "locality_name": "Боровичи",
+      "address": "ул. Коммунистическая, д. 39",
+      "square": 33.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Новомосковский административный округ",
+      "house_id": 340492,
+      "locality_name": "поселок Коммунарка",
+      "address": "п. Коммунарка, ул. Липовый парк, д. 11",
+      "square": 37361.65,
+      "extreme": "max"
+    },
+    {
+      "region": "Новомосковский административный округ",
+      "house_id": 341198,
+      "locality_name": "поселок Коммунарка",
+      "address": "п. Коммунарка, ул. Липовый парк, д. 10, к. 1",
+      "square": 6643.5,
+      "extreme": "min"
+    },
+    {
+      "region": "Новосибирская область",
+      "house_id": 433875,
+      "locality_name": "Новосибирск",
+      "address": "ул. Заречная, д. 4",
+      "square": 60371.8,
+      "extreme": "max"
+    },
+    {
+      "region": "Новосибирская область",
+      "house_id": 435104,
+      "locality_name": "Новосибирск",
+      "address": "ул. Зорге, д. 17",
+      "square": 3.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Одесская область",
+      "house_id": 179542,
+      "locality_name": "Измаил",
+      "address": "ул. Некрасова, д. 70",
+      "square": 948.8,
+      "extreme": "max"
+    },
+    {
+      "region": "Одесская область",
+      "house_id": 179542,
+      "locality_name": "Измаил",
+      "address": "ул. Некрасова, д. 70",
+      "square": 948.8,
+      "extreme": "min"
+    },
+    {
+      "region": "Омская область",
+      "house_id": 439756,
+      "locality_name": "Омск",
+      "address": "ул. Солнечная 2-я, д. 28, к. А",
+      "square": 3652010.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Омская область",
+      "house_id": 439038,
+      "locality_name": "Омск",
+      "address": "ул. Рабочая 14-я, д. 72",
+      "square": 31.2,
+      "extreme": "min"
+    },
+    {
+      "region": "Оренбургская область",
+      "house_id": 451560,
+      "locality_name": "Орск",
+      "address": "пр-кт. Ленина, д. 46",
+      "square": 47776.6,
+      "extreme": "max"
+    },
+    {
+      "region": "Оренбургская область",
+      "house_id": 451412,
+      "locality_name": "Оренбург",
+      "address": "ул. Лабужского, д. 12/3",
+      "square": 4.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Орловская область",
+      "house_id": 456677,
+      "locality_name": "Орел",
+      "address": "ш. Московское, д. 151",
+      "square": 40026.6,
+      "extreme": "max"
+    },
+    {
+      "region": "Орловская область",
+      "house_id": 457224,
+      "locality_name": "Орел",
+      "address": "ул. Кукушкина, д. 9",
+      "square": 5.1,
+      "extreme": "min"
+    },
+    {
+      "region": "Пензенская область",
+      "house_id": 461518,
+      "locality_name": "Пенза",
+      "address": "ул. Леонова, д. 20",
+      "square": 122261.1,
+      "extreme": "max"
+    },
+    {
+      "region": "Пензенская область",
+      "house_id": 458936,
+      "locality_name": "Пенза",
+      "address": "ул. Рахманинова, д. 14",
+      "square": 5.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Пермский край",
+      "house_id": 468822,
+      "locality_name": "Пермь",
+      "address": "ул. Революции, д. 21",
+      "square": 65104.2,
+      "extreme": "max"
+    },
+    {
+      "region": "Пермский край",
+      "house_id": 471099,
+      "locality_name": "Кудымкар",
+      "address": "ул. Чкалова, д. 34",
+      "square": 17.8,
+      "extreme": "min"
+    },
+    {
+      "region": "Приволжский федеральный округ",
+      "house_id": 405177,
+      "locality_name": "Бор",
+      "address": "мкр. ж/р Боталово-4, ул. Керченская, д. 17",
+      "square": 116.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Приволжский федеральный округ",
+      "house_id": 405172,
+      "locality_name": "Бор",
+      "address": "мкр. ж/р Боталово-4, ул. Керченская, д. 6",
+      "square": 30.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Приморский край",
+      "house_id": 477174,
+      "locality_name": "Владивосток",
+      "address": "ул. Леонова, д. 66",
+      "square": 41085.9,
+      "extreme": "max"
+    },
+    {
+      "region": "Приморский край",
+      "house_id": 481233,
+      "locality_name": "село Авангард",
+      "address": "г. Партизанск, с. Авангард, ул. Павлова, д. 3, к. Б",
+      "square": 2.8,
+      "extreme": "min"
+    },
+    {
+      "region": "Псковская область",
+      "house_id": 483972,
+      "locality_name": "Великие Луки",
+      "address": "ул. Заслонова, д. 31",
+      "square": 60112.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Псковская область",
+      "house_id": 483656,
+      "locality_name": "Великие Луки",
+      "address": "ул. Прудная, д. 4",
+      "square": 22.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Адыгея",
+      "house_id": 283110,
+      "locality_name": "поселок Яблоновский",
+      "address": "пгт. Яблоновский, ул. Кобцевой Н.С., д. 1",
+      "square": 45445.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Адыгея",
+      "house_id": 98990,
+      "locality_name": "Адыгейск",
+      "address": "д. 66",
+      "square": 8.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Алтай",
+      "house_id": 99055,
+      "locality_name": "Горно-Алтайск",
+      "address": "пр-кт. Коммунистический, д. 94/1",
+      "square": 18469.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Алтай",
+      "house_id": 99226,
+      "locality_name": "Горно-Алтайск",
+      "address": "пер. Пригородный, д. 1",
+      "square": 29.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Башкортостан",
+      "house_id": 125142,
+      "locality_name": "село Толбазы",
+      "address": "с. Толбазы, ул. Партизанская, д. 5",
+      "square": 16858.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Башкортостан",
+      "house_id": 124986,
+      "locality_name": "село Кусимовского Рудника",
+      "address": "с. Кусимовского рудника, ул. Рауфа Давлетова, д. 3",
+      "square": 0.2,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Бурятия",
+      "house_id": 136591,
+      "locality_name": "Улан-Удэ",
+      "address": "ул. Ключевская, д. 76а",
+      "square": 24522.3,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Бурятия",
+      "house_id": 138007,
+      "locality_name": "Улан-Удэ",
+      "address": "ул. Смолина, д. 81",
+      "square": 20.3,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Дагестан",
+      "house_id": 179468,
+      "locality_name": "Махачкала",
+      "address": "пр-кт. Петра Первого, д. 44",
+      "square": 81512.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Дагестан",
+      "house_id": 179795,
+      "locality_name": "село Гуниб",
+      "address": "с. Гуниб, ул. Омарова, д. 3",
+      "square": 46.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Ингушетия",
+      "house_id": 193396,
+      "locality_name": "Назрань",
+      "address": "ул. Московская, д. 41, стр. 2003",
+      "square": 7100.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Ингушетия",
+      "house_id": 193423,
+      "locality_name": "Назрань",
+      "address": "ул. Осканова, д. 6 7",
+      "square": 204.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Калмыкия",
+      "house_id": 220900,
+      "locality_name": "Элиста",
+      "address": "ул. А.С.Пушкина, д. 3 а, к. 1",
+      "square": 10616.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Калмыкия",
+      "house_id": 220958,
+      "locality_name": "Элиста",
+      "address": "мкр. 8-й, д. 20а",
+      "square": 163.3,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Карелия",
+      "house_id": 236108,
+      "locality_name": "Петрозаводск",
+      "address": "ул. Чапаева, д. 44",
+      "square": 18438.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Карелия",
+      "house_id": 234305,
+      "locality_name": "поселок Повенец",
+      "address": "пгт. Повенец, ул. 9 Мая, д. 8",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Коми",
+      "house_id": 268056,
+      "locality_name": "Печора",
+      "address": "ул. Ленина, д. 27",
+      "square": 42044.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Коми",
+      "house_id": 270154,
+      "locality_name": "Сыктывкар",
+      "address": "м. Верхний Чов, д. 21",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Марий Эл",
+      "house_id": 327362,
+      "locality_name": "Йошкар-Ола",
+      "address": "ул. Эшкинина, д. 22",
+      "square": 27139.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Марий Эл",
+      "house_id": 326465,
+      "locality_name": "Волжск",
+      "address": "ул. Кабанова, д. 4, к. 1",
+      "square": 2.18,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Мордовия",
+      "house_id": 333341,
+      "locality_name": "Саранск",
+      "address": "ул. Б.Хмельницкого, д. 75",
+      "square": 32797.8,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Мордовия",
+      "house_id": 331486,
+      "locality_name": "Саранск",
+      "address": "пр-кт. 70 лет Октября, д. 192",
+      "square": 15.3,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Саха (Якутия)",
+      "house_id": 538520,
+      "locality_name": "Якутск",
+      "address": "ул. Лермонтова, д. 49",
+      "square": 34776.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Саха (Якутия)",
+      "house_id": 539674,
+      "locality_name": "Якутск",
+      "address": "ул. Дзержинского, д. 26, к. 3",
+      "square": 3.06,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Северная Осетия-Алания",
+      "house_id": 585061,
+      "locality_name": "Владикавказ",
+      "address": "ул. Астана Кесаева, д. 37",
+      "square": 21311.09,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Северная Осетия-Алания",
+      "house_id": 584417,
+      "locality_name": "Владикавказ",
+      "address": "ул. Ардонская, д. 220",
+      "square": 20.6,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Татарстан",
+      "house_id": 18213,
+      "locality_name": "Набережные Челны",
+      "address": "ул. Раскольникова, д. 25",
+      "square": 194618.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Татарстан",
+      "house_id": 12088,
+      "locality_name": "поселок Бирюлинского Зверосовхоза",
+      "address": "п. Бирюлинского Зверосовхоза, ул. Кольцевая, д. 2а",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Тыва",
+      "house_id": 45792,
+      "locality_name": "Кызыл",
+      "address": "ул. Кочетова, д. 59/2",
+      "square": 16319.68,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Тыва",
+      "house_id": 45815,
+      "locality_name": "Кызыл",
+      "address": "ул. Красных Партизан, д. 13",
+      "square": 229.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Республика Хакасия",
+      "house_id": 65330,
+      "locality_name": "Абакан",
+      "address": "ул. Кирова, д. 112, к. 1",
+      "square": 19367.2,
+      "extreme": "max"
+    },
+    {
+      "region": "Республика Хакасия",
+      "house_id": 65602,
+      "locality_name": "поселок Верхняя Согра",
+      "address": "г. Абакан, ул. Молодежная, д. 11",
+      "square": 74.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Ростовская область",
+      "house_id": 492928,
+      "locality_name": "Ростов-на-Дону",
+      "address": "ул. Вятская, д. 49",
+      "square": 107113.9,
+      "extreme": "max"
+    },
+    {
+      "region": "Ростовская область",
+      "house_id": 497035,
+      "locality_name": "Таганрог",
+      "address": "ул. Сергея Шило, д. 190/2",
+      "square": 1.95,
+      "extreme": "min"
+    },
+    {
+      "region": "Рязанская область",
+      "house_id": 502521,
+      "locality_name": "Рязань",
+      "address": "ш. Солотчинское, д. 2",
+      "square": 52551.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Рязанская область",
+      "house_id": 501995,
+      "locality_name": "Рязань",
+      "address": "ул. Новослободская, д. 3",
+      "square": 21.3,
+      "extreme": "min"
+    },
+    {
+      "region": "Самарская область",
+      "house_id": 516916,
+      "locality_name": "Самара",
+      "address": "ул. Лейтенанта Шмидта, д. 1",
+      "square": 261681.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Самарская область",
+      "house_id": 506386,
+      "locality_name": "село Алакаевка",
+      "address": "с. Алакаевка, ул. Юбилейная, д. 12",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Санкт-Петербург",
+      "house_id": 528953,
+      "locality_name": "Санкт-Петербург",
+      "address": "ул. Коллонтай, д. 5/1",
+      "square": 187955.11,
+      "extreme": "max"
+    },
+    {
+      "region": "Санкт-Петербург",
+      "house_id": 522683,
+      "locality_name": "Санкт-Петербург",
+      "address": "пр-кт. Раевского, д. 3",
+      "square": 1.6,
+      "extreme": "min"
+    },
+    {
+      "region": "Саратовская область",
+      "house_id": 535844,
+      "locality_name": "Саратов",
+      "address": "ул. Батавина, д. 12",
+      "square": 61589.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Саратовская область",
+      "house_id": 535226,
+      "locality_name": "Саратов",
+      "address": "ул. Красновая, д. 32, стр. жилой",
+      "square": 8.5,
+      "extreme": "min"
+    },
+    {
+      "region": "Сахалинская область",
+      "house_id": 544962,
+      "locality_name": "Южно-Сахалинск",
+      "address": "пр-кт. Победы, д. 63Г",
+      "square": 16726.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Сахалинская область",
+      "house_id": 547552,
+      "locality_name": "село Восток",
+      "address": "с. Восток, ул. Приморская, д. 5, к. 1",
+      "square": 3.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Свердловская область",
+      "house_id": 563093,
+      "locality_name": "Екатеринбург",
+      "address": "ул. Токарей, д. 68",
+      "square": 1879860.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Свердловская область",
+      "house_id": 556244,
+      "locality_name": "Екатеринбург",
+      "address": "ул. Викулова, д. 44, к. 1",
+      "square": 4.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Северо-Западный федеральный округ",
+      "house_id": 522659,
+      "locality_name": "поселок Парголово",
+      "address": "п. Парголово, ул. Федора Абрамова, д. 8",
+      "square": 181937.4,
+      "extreme": "max"
+    },
+    {
+      "region": "Северо-Западный федеральный округ",
+      "house_id": 528015,
+      "locality_name": "Зеленогорск",
+      "address": "ул. Кавалерийская, д. 24а",
+      "square": 21.6,
+      "extreme": "min"
+    },
+    {
+      "region": "Северо-Кавказский федеральный округ",
+      "house_id": 79506,
+      "locality_name": "Аргун",
+      "address": "ул. Станционная, д. ст.Аргун 3",
+      "square": 368.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Северо-Кавказский федеральный округ",
+      "house_id": 79508,
+      "locality_name": "Аргун",
+      "address": "ул. Станционная, д. ст.Аргун 2143-3",
+      "square": 104.5,
+      "extreme": "min"
+    },
+    {
+      "region": "Смоленская область",
+      "house_id": 587360,
+      "locality_name": "Смоленск",
+      "address": "ул. Николаева, д. 34В",
+      "square": 97496.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Смоленская область",
+      "house_id": 588235,
+      "locality_name": "Смоленск",
+      "address": "п. Серебрянка, д. 44",
+      "square": 17.85,
+      "extreme": "min"
+    },
+    {
+      "region": "Ставропольский край",
+      "house_id": 1740,
+      "locality_name": "Ставрополь",
+      "address": "проезд. 2 Юго-Западный, д. 2Г",
+      "square": 58591.2,
+      "extreme": "max"
+    },
+    {
+      "region": "Ставропольский край",
+      "house_id": 2829,
+      "locality_name": "Ставрополь",
+      "address": "ул. Мира, д. 429",
+      "square": 4.13,
+      "extreme": "min"
+    },
+    {
+      "region": "Сумская область",
+      "house_id": 295349,
+      "locality_name": "Ахтырка",
+      "address": "ул. Менжинского, д. 14",
+      "square": 4132.2,
+      "extreme": "max"
+    },
+    {
+      "region": "Сумская область",
+      "house_id": 295349,
+      "locality_name": "Ахтырка",
+      "address": "ул. Менжинского, д. 14",
+      "square": 4132.2,
+      "extreme": "min"
+    },
+    {
+      "region": "Тамбовская область",
+      "house_id": 7238,
+      "locality_name": "Тамбов",
+      "address": "ул. Базарная, д. 115/59",
+      "square": 52181.1,
+      "extreme": "max"
+    },
+    {
+      "region": "Тамбовская область",
+      "house_id": 7960,
+      "locality_name": "Тамбов",
+      "address": "ул. Карла Маркса, д. 175а, к. 4",
+      "square": 2.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Тверская область",
+      "house_id": 25019,
+      "locality_name": "Тверь",
+      "address": "ул. Паши Савельевой, д. 54",
+      "square": 31656.87,
+      "extreme": "max"
+    },
+    {
+      "region": "Тверская область",
+      "house_id": 27198,
+      "locality_name": "Нелидово",
+      "address": "ул. Марины Расковой, д. 2",
+      "square": 30.3,
+      "extreme": "min"
+    },
+    {
+      "region": "Томская область",
+      "house_id": 29003,
+      "locality_name": "Северск",
+      "address": "пр-кт. Коммунистический, д. 151",
+      "square": 43293.2,
+      "extreme": "max"
+    },
+    {
+      "region": "Томская область",
+      "house_id": 30673,
+      "locality_name": "Томск",
+      "address": "ул. Басандайская, д. 31, к. 6",
+      "square": 16.8,
+      "extreme": "min"
+    },
+    {
+      "region": "Троицкий административный округ",
+      "house_id": 374163,
+      "locality_name": "Троицк",
+      "address": "пл. Академическая, д. 3",
+      "square": 47905.48,
+      "extreme": "max"
+    },
+    {
+      "region": "Троицкий административный округ",
+      "house_id": 349315,
+      "locality_name": "поселок Первомайское",
+      "address": "п. Первомайское, ул. Парковая, д. 4",
+      "square": 52.4,
+      "extreme": "min"
+    },
+    {
+      "region": "Тульская область",
+      "house_id": 39840,
+      "locality_name": "Тула",
+      "address": "ул. М.Горького, д. 12(2)",
+      "square": 47102.6,
+      "extreme": "max"
+    },
+    {
+      "region": "Тульская область",
+      "house_id": 36879,
+      "locality_name": "Донской",
+      "address": "мкр. Центральный, ул. Терпигорева, д. 3",
+      "square": 1.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Тюменская область",
+      "house_id": 46369,
+      "locality_name": "Тюмень",
+      "address": "проезд. Солнечный, д. 7",
+      "square": 54334.09,
+      "extreme": "max"
+    },
+    {
+      "region": "Тюменская область",
+      "house_id": 51148,
+      "locality_name": "Тобольск",
+      "address": "ул. Челюскинцев, д. 4",
+      "square": 18.4,
+      "extreme": "min"
+    },
+    {
+      "region": "Удмуртская Республика",
+      "house_id": 55582,
+      "locality_name": "Ижевск",
+      "address": "ул. 40 лет Победы, д. 140",
+      "square": 197757.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Удмуртская Республика",
+      "house_id": 55898,
+      "locality_name": "Ижевск",
+      "address": ". 7 Сарапульского тракта , д. 5",
+      "square": 21.3,
+      "extreme": "min"
+    },
+    {
+      "region": "Ульяновская область",
+      "house_id": 62128,
+      "locality_name": "Ульяновск",
+      "address": "пр-кт. Ульяновский, д. 2",
+      "square": 75387.85,
+      "extreme": "max"
+    },
+    {
+      "region": "Ульяновская область",
+      "house_id": 58982,
+      "locality_name": "Ульяновск",
+      "address": "ул. Минина, д. 15/33",
+      "square": 2.88,
+      "extreme": "min"
+    },
+    {
+      "region": "ХМАО",
+      "house_id": 68482,
+      "locality_name": "Нижневартовск",
+      "address": "пр-кт. Победы, д. 18",
+      "square": 646910.0,
+      "extreme": "max"
+    },
+    {
+      "region": "ХМАО",
+      "house_id": 71786,
+      "locality_name": "Сургут",
+      "address": "ул. Таежная (п Лунный), д. 4Б",
+      "square": 15.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Хабаровский край",
+      "house_id": 63697,
+      "locality_name": "Амурск",
+      "address": "пр-кт. Строителей, д. 36",
+      "square": 19188.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Хабаровский край",
+      "house_id": 64386,
+      "locality_name": "поселок Дормидонтовка",
+      "address": "п. Дормидонтовка, ул. Гаражная, д. 8",
+      "square": 35.5,
+      "extreme": "min"
+    },
+    {
+      "region": "Херсонская область",
+      "house_id": 175492,
+      "locality_name": "Херсон",
+      "address": "д. ул. Садовая 44",
+      "square": 838.9,
+      "extreme": "max"
+    },
+    {
+      "region": "Херсонская область",
+      "house_id": 175492,
+      "locality_name": "Херсон",
+      "address": "д. ул. Садовая 44",
+      "square": 838.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Центральный федеральный округ",
+      "house_id": 340143,
+      "locality_name": "Зеленоград",
+      "address": "д. 1824",
+      "square": 56865.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Центральный федеральный округ",
+      "house_id": 349406,
+      "locality_name": "поселок Первомайское",
+      "address": "п. Птичное, ул. Центральная усадьба, д. 14",
+      "square": 23.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Челябинская область",
+      "house_id": 77223,
+      "locality_name": "Челябинск",
+      "address": "пр-кт. Победы, д. 238",
+      "square": 35576.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Челябинская область",
+      "house_id": 78408,
+      "locality_name": "Копейск",
+      "address": "ул. Похвалина, д. 38",
+      "square": 16.0,
+      "extreme": "min"
+    },
+    {
+      "region": "Черкасская область",
+      "house_id": 178505,
+      "locality_name": "Смела",
+      "address": "ул. Громова, д. 4",
+      "square": 1032.8,
+      "extreme": "max"
+    },
+    {
+      "region": "Черкасская область",
+      "house_id": 178505,
+      "locality_name": "Смела",
+      "address": "ул. Громова, д. 4",
+      "square": 1032.8,
+      "extreme": "min"
+    },
+    {
+      "region": "Чеченская Республика",
+      "house_id": 79783,
+      "locality_name": "Грозный",
+      "address": "ул. им Льва И. Яшина, д. 28",
+      "square": 74420.9,
+      "extreme": "max"
+    },
+    {
+      "region": "Чеченская Республика",
+      "house_id": 79566,
+      "locality_name": "село Ачхой-Мартан",
+      "address": "с. Ачхой-Мартан, ул. Х.Нурадилова, д. 120",
+      "square": 30.5,
+      "extreme": "min"
+    },
+    {
+      "region": "Чоко",
+      "house_id": 586554,
+      "locality_name": "Банайн-Ч",
+      "address": "г. Смоленск, п. Красный Бор, д. 7 в/ч 83283",
+      "square": 887.4,
+      "extreme": "max"
+    },
+    {
+      "region": "Чоко",
+      "house_id": 588016,
+      "locality_name": "Банайн-Ч",
+      "address": "г. Смоленск, п. Красный Бор, д. 2 в/ч 83283",
+      "square": 127.8,
+      "extreme": "min"
+    },
+    {
+      "region": "Чувашская Республика",
+      "house_id": 84167,
+      "locality_name": "Чебоксары",
+      "address": "ул. Маршака, д. 8, к. 1",
+      "square": 73661.0,
+      "extreme": "max"
+    },
+    {
+      "region": "Чувашская Республика",
+      "house_id": 84448,
+      "locality_name": "Шумерля",
+      "address": "ул. Мичурина, д. 4/1",
+      "square": 14.9,
+      "extreme": "min"
+    },
+    {
+      "region": "Чукотский автономный округ",
+      "house_id": 85909,
+      "locality_name": "Певек",
+      "address": "ул. Обручева, д. 38",
+      "square": 7529.7,
+      "extreme": "max"
+    },
+    {
+      "region": "Чукотский автономный округ",
+      "house_id": 85827,
+      "locality_name": "село Конергино",
+      "address": "с. Конергино, ул. им Б.И.Равтытагина, д. 17",
+      "square": 39.2,
+      "extreme": "min"
+    },
+    {
+      "region": "Южно-Казахстанская область",
+      "house_id": 179399,
+      "locality_name": "Шымкент",
+      "address": "ул. Юсупова, д. 34",
+      "square": 715.5,
+      "extreme": "max"
+    },
+    {
+      "region": "Южно-Казахстанская область",
+      "house_id": 179398,
+      "locality_name": "Шымкент",
+      "address": "ул. Юсупова, д. 32",
+      "square": 411.5,
+      "extreme": "min"
+    },
+    {
+      "region": "ЯНАО",
+      "house_id": 89879,
+      "locality_name": "Ноябрьск",
+      "address": "ул. Школьная, д. 23",
+      "square": 26512.0,
+      "extreme": "max"
+    },
+    {
+      "region": "ЯНАО",
+      "house_id": 90945,
+      "locality_name": "Салехард",
+      "address": "ул. Щорса, д. 15",
+      "square": 11.5,
+      "extreme": "min"
+    },
+    {
+      "region": "Ярославская область",
+      "house_id": 93402,
+      "locality_name": "Ярославль",
+      "address": "пр-кт. Московский, д. 163",
+      "square": 42224.8,
+      "extreme": "max"
+    },
+    {
+      "region": "Ярославская область",
+      "house_id": 96544,
+      "locality_name": "Ярославль",
+      "address": "пр-кт. Ленинградский, д. 52",
+      "square": 1.0,
+      "extreme": "min"
+    }
+  ],
+  "buildings_by_decade": [
+    {
+      "decade": 1800,
+      "count": 24
+    },
+    {
+      "decade": 1810,
+      "count": 18
+    },
+    {
+      "decade": 1820,
+      "count": 48
+    },
+    {
+      "decade": 1830,
+      "count": 69
+    },
+    {
+      "decade": 1840,
+      "count": 72
+    },
+    {
+      "decade": 1850,
+      "count": 129
+    },
+    {
+      "decade": 1860,
+      "count": 189
+    },
+    {
+      "decade": 1870,
+      "count": 380
+    },
+    {
+      "decade": 1880,
+      "count": 698
+    },
+    {
+      "decade": 1890,
+      "count": 1205
+    },
+    {
+      "decade": 1900,
+      "count": 2644
+    },
+    {
+      "decade": 1910,
+      "count": 13853
+    },
+    {
+      "decade": 1920,
+      "count": 4830
+    },
+    {
+      "decade": 1930,
+      "count": 12596
+    },
+    {
+      "decade": 1940,
+      "count": 18745
+    },
+    {
+      "decade": 1950,
+      "count": 83463
+    },
+    {
+      "decade": 1960,
+      "count": 110262
+    },
+    {
+      "decade": 1970,
+      "count": 96318
+    },
+    {
+      "decade": 1980,
+      "count": 89904
+    },
+    {
+      "decade": 1990,
+      "count": 42388
+    },
+    {
+      "decade": 2000,
+      "count": 23062
+    },
+    {
+      "decade": 2010,
+      "count": 13866
+    },
+    {
+      "decade": 2020,
+      "count": 1
+    }
+  ]
+}

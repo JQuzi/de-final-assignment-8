@@ -1,0 +1,202 @@
+[
+  {
+    "house_id": 129907,
+    "region": "Белгородская область",
+    "locality_name": "Старый Оскол",
+    "address": "мкр. Дубрава квартал 1, д. 18",
+    "square": 7058900.0,
+    "maintenance_year": null
+  },
+  {
+    "house_id": 129908,
+    "region": "Белгородская область",
+    "locality_name": "Старый Оскол",
+    "address": "мкр. Дубрава квартал 1, д. 19",
+    "square": 6966720.0,
+    "maintenance_year": null
+  },
+  {
+    "house_id": 406399,
+    "region": "Нижегородская область",
+    "locality_name": "Бор",
+    "address": "ул. Мира, д. 29",
+    "square": 4351000.9,
+    "maintenance_year": null
+  },
+  {
+    "house_id": 439756,
+    "region": "Омская область",
+    "locality_name": "Омск",
+    "address": "ул. Солнечная 2-я, д. 28, к. А",
+    "square": 3652010.0,
+    "maintenance_year": 1966
+  },
+  {
+    "house_id": 563093,
+    "region": "Свердловская область",
+    "locality_name": "Екатеринбург",
+    "address": "ул. Токарей, д. 68",
+    "square": 1879860.0,
+    "maintenance_year": null
+  },
+  {
+    "house_id": 334449,
+    "region": "Москва",
+    "locality_name": "Москва",
+    "address": "ул. Старый Гай, д. 6",
+    "square": 883057.36,
+    "maintenance_year": 1971
+  },
+  {
+    "house_id": 68482,
+    "region": "ХМАО",
+    "locality_name": "Нижневартовск",
+    "address": "пр-кт. Победы, д. 18",
+    "square": 646910.0,
+    "maintenance_year": 1982
+  },
+  {
+    "house_id": 301455,
+    "region": "Красноярский край",
+    "locality_name": "поселок Филимоново",
+    "address": "с. Филимоново, ул. Профсоюзная, д. 3",
+    "square": 452520.0,
+    "maintenance_year": 1995
+  },
+  {
+    "house_id": 301442,
+    "region": "Красноярский край",
+    "locality_name": "поселок Филимоново",
+    "address": "с. Филимоново, ул. Западная, д. 11",
+    "square": 448666.0,
+    "maintenance_year": 1991
+  },
+  {
+    "house_id": 301447,
+    "region": "Красноярский край",
+    "locality_name": "поселок Филимоново",
+    "address": "с. Филимоново, ул. Луговая, д. 7",
+    "square": 441713.0,
+    "maintenance_year": 1986
+  },
+  {
+    "house_id": 301457,
+    "region": "Красноярский край",
+    "locality_name": "поселок Филимоново",
+    "address": "с. Филимоново, ул. Трактовая, д. 3",
+    "square": 441350.0,
+    "maintenance_year": 1983
+  },
+  {
+    "house_id": 109584,
+    "region": "Амурская область",
+    "locality_name": "поселок Февральск",
+    "address": "пгт. Февральск, ул. Саянская, д. 4 А",
+    "square": 429720.0,
+    "maintenance_year": 1985
+  },
+  {
+    "house_id": 374251,
+    "region": "Московская область",
+    "locality_name": "Фрязино",
+    "address": "ул. Пионерская, д. 3",
+    "square": 410203.8,
+    "maintenance_year": 2011
+  },
+  {
+    "house_id": 351465,
+    "region": "Москва",
+    "locality_name": "Москва",
+    "address": "пер. Трехгорный Б., д. 2",
+    "square": 383408.0,
+    "maintenance_year": 1987
+  },
+  {
+    "house_id": 361476,
+    "region": "Москва",
+    "locality_name": "Москва",
+    "address": "ул. Подольских Курсантов, д. 18, к. 1",
+    "square": 335259.0,
+    "maintenance_year": 1972
+  },
+  {
+    "house_id": 260554,
+    "region": "Кировская область",
+    "locality_name": "Киров",
+    "address": "ул. Свердлова, д. 8, к. а",
+    "square": 313165.6,
+    "maintenance_year": 1966
+  },
+  {
+    "house_id": 301445,
+    "region": "Красноярский край",
+    "locality_name": "поселок Филимоново",
+    "address": "с. Филимоново, ул. Луговая, д. 4",
+    "square": 270929.0,
+    "maintenance_year": 1975
+  },
+  {
+    "house_id": 516916,
+    "region": "Самарская область",
+    "locality_name": "Самара",
+    "address": "ул. Лейтенанта Шмидта, д. 1",
+    "square": 261681.0,
+    "maintenance_year": 2003
+  },
+  {
+    "house_id": 520689,
+    "region": "Самарская область",
+    "locality_name": "Тольятти",
+    "address": "ул. Баныкина, д. 16В",
+    "square": 259491.0,
+    "maintenance_year": 2004
+  },
+  {
+    "house_id": 350026,
+    "region": "Москва",
+    "locality_name": "Москва",
+    "address": "наб. Академика Туполева, д. 15",
+    "square": 214075.5,
+    "maintenance_year": 2008
+  },
+  {
+    "house_id": 301444,
+    "region": "Красноярский край",
+    "locality_name": "поселок Филимоново",
+    "address": "с. Филимоново, ул. Луговая, д. 2",
+    "square": 212432.0,
+    "maintenance_year": 1971
+  },
+  {
+    "house_id": 333965,
+    "region": "Москва",
+    "locality_name": "Москва",
+    "address": "б-р. Маршала Рокоссовского, д. 6, к. 1",
+    "square": 202347.1,
+    "maintenance_year": 2011
+  },
+  {
+    "house_id": 358459,
+    "region": "Москва",
+    "locality_name": "Москва",
+    "address": "ул. Маршала Савицкого, д. 18, к. 2",
+    "square": 202034.0,
+    "maintenance_year": 2008
+  },
+  {
+    "house_id": 414929,
+    "region": "Нижегородская область",
+    "locality_name": "Нижний Новгород",
+    "address": "ул. Звездинка, д. 20б",
+    "square": 199115.0,
+    "maintenance_year": 2006
+  },
+  {
+    "house_id": 172748,
+    "region": "Воронежская область",
+    "locality_name": "Воронеж",
+    "address": "ул. Урывского, д. 9",
+    "square": 198476.7,
+    "maintenance_year": 2005
+  }
+]
